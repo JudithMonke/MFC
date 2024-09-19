@@ -2,9 +2,9 @@ Homework 01 - get acquainted with the use of the performance weights wS(s), wU(s
 - Choose the motor parameters, 
 - velocity control problem (you want to guarantee that the rotor and the unknown load rotate at steady state at a given angular velocity) and then a position control problem (stop the motor at a given angular position).
 
-Homework 02 - Consider the system described by (-) where x1 and x2 represent the positions of the masses m1 and m2 respectively, b is a viscous friction coeficient, k is the elastic coecient of a repulsive spring and f is the control force applied to the
+Homework 02 - Consider the system described by (eq.) where x1 and x2 represent the positions of the masses m1 and m2 respectively, b is a viscous friction coeficient, k is the elastic coecient of a repulsive spring and f is the control force applied to the
 mass m1. This plant is a linear approximation of the system shown in Fig. 1 where a suitcase of mass m2 has been forgotten on the roof of a car. The repulsive spring represents the combined effect of the gravity and the roof curvature, b the relative friction between the roof and the suitcase, m1
-is the total mass of the car without the suitcase and f is the driving force. The suitcase is \carried" by the car via the viscous friction force b(x_ 1 􀀀 x_ 2). We can consider three possible outputs: 
+is the total mass of the car without the suitcase and f is the driving force. The suitcase is \carried" by the car via the viscous friction force b(x_ 1 - x_ 2). We can consider three possible outputs: 
 1. the absolute position of the suitcase (that is x1)
 2. the absolute position of the car (that is x2)
 3. the relative position of the suitcase with respect to the car (that is x1 - x2).
